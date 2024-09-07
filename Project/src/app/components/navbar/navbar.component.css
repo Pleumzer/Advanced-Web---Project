@@ -6,7 +6,10 @@
     display: flex;
     justify-content: space-between; /* กระจายเนื้อหาซ้าย-ขวา */
     align-items: center;
+    position: fixed;
+    top: 0;
     width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Downside shadow */
 }
 
 .navbar-brand-container {
